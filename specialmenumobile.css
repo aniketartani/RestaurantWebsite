@@ -1,0 +1,14 @@
+@media only screen and (max-width: 992px)
+{
+  #form
+  {
+    width: 650px;
+  }
+  #background
+  {
+    background-image: url(images/specialmenu.jpg);
+    background-repeat: inherit;
+    background-attachment: fixed;
+    background-size: contain;
+  }
+}

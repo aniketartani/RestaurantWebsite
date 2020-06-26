@@ -1,0 +1,45 @@
+#heading
+{
+  font-style: italic;
+    text-align: center;
+}
+#background
+{
+  background-image: url('images/specialmenu.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: #000; }
+    60%{    color: red; }
+    99%{    color:red;  }
+    100%{   color: #000;
+    }
+  }
+#heading2
+{
+  text-align: center;
+    font-size: -webkit-xxx-large;
+}
+#dish1
+{
+      block-size: 150px;
+}
+#dish2
+{
+  block-size: 150px;
+}
+#dish3
+{
+  block-size:150px;
+}
+#dish4
+{
+  block-size:150px;
+}
+#dish5
+{
+  block-size:150px;
+}

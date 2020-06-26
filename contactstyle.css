@@ -1,0 +1,17 @@
+#form
+{
+      margin-right: 650px;
+      font-size: x-large;
+}
+#submit
+{
+  width:135px;
+
+}
+#background
+{
+  background-image: url('images/specialmenu.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}

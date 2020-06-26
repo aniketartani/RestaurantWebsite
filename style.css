@@ -1,0 +1,69 @@
+#color
+{
+background-color:#FFD9D1;
+}
+#n1
+{
+    block-size: 40px;
+}
+#navbar
+{
+  font-size: -webkit-xxx-large;
+}
+#p1
+{
+
+    font-size: 50px;
+    /* align-items: center; */
+    text-align-last: center;
+    font-style: italic;
+
+
+}
+#logo
+{
+      block-size: 70px;
+}
+#caption2
+{
+  font-style: italic;
+    text-align: center;
+    margin-top: -20px;
+    font-weight: 700;
+    animation:blinkingText 1.2s infinite;
+}
+#caption1
+{
+  font-style: italic;
+    text-align: center;
+    margin-top: -20px;
+    font-weight: 700;
+        color: floralwhite;
+         animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: #000; }
+    60%{    color: red; }
+    99%{    color:red;  }
+    100%{   color: #000;    }
+}
+#p2
+{
+  font-weight: 600;
+font-size: larger;
+}
+#yesbutton
+{
+  border-left-width: 15;
+border-right-width: 15;
+}
+#nobutton
+{
+  border-left-width: 15;
+border-right-width: 15;
+}
+#ul
+{
+
+}

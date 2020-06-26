@@ -1,0 +1,31 @@
+@media only screen and (max-width: 992px)
+{
+#caption2
+{
+    font-size: xx-large;
+    margin-top: -38px;
+    animation:blinkingText 1.2s infinite;
+}
+#caption1
+{
+  font-size: xx-large;
+  margin-top: -38px;
+  animation:blinkingText 1.2s infinite;
+}
+#logo
+{
+  block-size: 150px;
+}
+
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: #000; }
+    60%{    color: red; }
+    99%{    color:red;  }
+    100%{   color: #000;    }
+}
+#ul
+{
+  font-size: xxx-large;
+}
+}
