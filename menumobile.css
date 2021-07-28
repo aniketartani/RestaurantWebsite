@@ -1,7 +1,22 @@
 @media only screen and (max-width: 992px)
 {
-  #menu
-  {
-        height: -webkit-fill-available;
-  }
+
+#logo
+{
+  block-size: 150px;
+}
+
+#ul
+{
+  font-size: xxx-large;
+}
+
+#menuWrap{
+  grid-template-columns: 100%;
+}
+
+.card{
+  width: 50rem;
+}
+
 }

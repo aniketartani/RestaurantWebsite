@@ -1,3 +1,50 @@
-#menu
+#color
 {
+background-color:#FFD9D1;
+}
+#navbar
+{
+  font-size: -webkit-xxx-large;
+}
+#logo
+{
+      block-size: 70px;
+}
+
+/* Sticky Footer
+Calculated 100vh - height of footer
+Footer always sticks to bottom of page */
+main{
+    min-height: calc(100vh - 46px);
+}
+
+footer p{
+  font-size: 1.25em;
+}
+
+#menuWrap{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 1em;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 2em auto;
+}
+
+.card{
+    margin: 0 auto;
+    width: 25rem;
+}
+
+.card img{
+    max-height: 250px;
+    height: 100%;
+}
+
+
+@media screen and (min-width: 1278px) {
+    #menuWrap {
+        grid-template-columns: 33.33% 33.33% 33.33%;
+    }
 }
